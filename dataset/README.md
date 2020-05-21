@@ -3,6 +3,7 @@
 We collected several news texts from website of Rossiyskaya Gazeta.
 Licens agreements permits collecting, copying and saving data from this site for personal non-commersial uses by Russian citizens.
 Metodology to collect the dataset is self-designed parser through C# and AngleSharp library. Raw HTML -> JSON dataset.
+___
 
 The [first version of dataset](https://drive.google.com/drive/folders/1e9yYQgkWwXM6lyocY2crDfOLJ-a7dwRp) include 44014 lines and 18 columns:
 
@@ -10,7 +11,7 @@ RangeIndex: 44014 entries, 0 to 44013
 Data columns (total 18 columns):
 
 | #  | Column               | Non-Null Count  | Dtype  |
-| -- |:--------------------:|:---------------:| ------:|
+| -- |---------------------:|:---------------:| ------:|
 | 0  | Article_id           |  44014 non-null | int64  |
 | 1  | Url                  |  44014 non-null | object |
 | 2  | Date_time            |  43771 non-null | object |
@@ -30,6 +31,7 @@ Data columns (total 18 columns):
 | 16 | Keywords             |  43773 non-null | object |
 | 17 | Authors              |  43771 non-null | object |
 dtypes: int64(1), object(17)
+___
 
 The [second version of dataset](https://drive.google.com/drive/folders/1pk67FOG2TSRXpV-KoZo5ubiUzAVymmwQ) is divided into 7 parts:
 
@@ -57,6 +59,7 @@ In total it's include 134010 lines and 9 columns:
 | 7  | Keywords      | object  |
 | 8  | Authors       | object  |
 
+___
 
-NOTE: both dataset was collected for different tasks, in addition to differences in structure, they include different data.
+**NOTE**: both dataset was collected for different tasks, in addition to differences in structure, they include different data.
 The first one include news only from site headpage from 2012 to the present day (44014 news). And the second one include news from site rubrics pages from summer 2019 to present days (134010 news). Both datasets include a small number of duplicated news (no more than a couple of hundred).
