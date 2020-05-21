@@ -11,7 +11,7 @@ RangeIndex: 44014 entries, 0 to 44013
 Data columns (total 18 columns):
 
 | #  | Column               | Non-Null Count  | Dtype  |
-| -- |:---------------------|:----------------| -------|
+| -- |:---------------------|:----------------| :------|
 | 0  | Article_id           |  44014 non-null | int64  |
 | 1  | Url                  |  44014 non-null | object |
 | 2  | Date_time            |  43771 non-null | object |
@@ -30,13 +30,14 @@ Data columns (total 18 columns):
 | 15 | Announce             |  44012 non-null | object |
 | 16 | Keywords             |  43773 non-null | object |
 | 17 | Authors              |  43771 non-null | object |
+
 dtypes: int64(1), object(17)
 ___
 
 The [second version of dataset](https://drive.google.com/drive/folders/1pk67FOG2TSRXpV-KoZo5ubiUzAVymmwQ) is divided into 7 parts:
 
 | #  | Name        | Head rubric               |
-| -- |:------------| --------------------------|
+| -- |:------------| :-------------------------|
 | 1  | RG01.json   |   Культура (Culture)      |
 | 2  | RG02.json   |   Спорт (Sports)          |
 | 3  | RG03.json   |   Общество (Society)      |
