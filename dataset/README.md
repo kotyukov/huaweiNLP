@@ -8,26 +8,27 @@ The [first version of dataset](https://drive.google.com/drive/folders/1e9yYQgkWw
 
 RangeIndex: 44014 entries, 0 to 44013
 Data columns (total 18 columns):
-###  Column                 Non-Null Count  Dtype 
----  ------                 --------------  ----- 
- 0   Article_id             44014 non-null  int64 
- 1   Url                    44014 non-null  object
- 2   Date_time              43771 non-null  object
- 3   Day                    43060 non-null  object
- 4   Time                   43045 non-null  object
- 5   Image_source           34518 non-null  object
- 6   Image_url              34518 non-null  object
- 7   Related_topics         43850 non-null  object
- 8   Related_organizations  30899 non-null  object
- 9   Related_regions        10061 non-null  object
- 10  Head_rubric            42418 non-null  object
- 11  Alt_title              44013 non-null  object
- 12  Head_title             43965 non-null  object
- 13  Head_subtitle          12497 non-null  object
- 14  Text                   43984 non-null  object
- 15  Announce               44012 non-null  object
- 16  Keywords               43773 non-null  object
- 17  Authors                43771 non-null  object
+
+| Column                   | Non-Null Count  | Dtype  |
+| ------------------------ |:---------------:| ------:|
+| 0   Article_id           |  44014 non-null | int64  |
+| 1   Url                  |  44014 non-null | object |
+| 2   Date_time            |  43771 non-null | object |
+| 3   Day                  |  43060 non-null | object |
+| 4   Time                 |  43045 non-null | object |
+| 5   Image_source         |  34518 non-null | object |
+| 6   Image_url            |  34518 non-null | object |
+| 7   Related_topics       |  43850 non-null | object |
+| 8   Related_organizations|  30899 non-null | object |
+| 9   Related_regions      |  10061 non-null | object |
+| 10  Head_rubric          |  42418 non-null | object |
+| 11  Alt_title            |  44013 non-null | object |
+| 12  Head_title           |  43965 non-null | object |
+| 13  Head_subtitle        |  12497 non-null | object |
+| 14  Text                 |  43984 non-null | object |
+| 15  Announce             |  44012 non-null | object |
+| 16  Keywords             |  43773 non-null | object |
+| 17  Authors              |  43771 non-null | object |
 dtypes: int64(1), object(17)
 
 
